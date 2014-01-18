@@ -1,0 +1,28 @@
+.left{
+    text-align:left;
+}
+.right{
+    text-align:right;
+}
+.margin-bottom{
+    margin-bottom: 5px;
+}
+.badge{
+    padding: 4px 9px 4px;
+}
+.msg-row{
+    margin-bottom: 10px;
+}
+.msg-row span{
+    margin-right:55px;
+}
+.title{
+    background-color: #36a9e1;
+    padding: 6px 0 6px 20px;
+    color: white;
+    font-size: 14px;
+}
+.scroll-y {
+    overflow-y: auto;
+    overflow-x:hidden;
+}

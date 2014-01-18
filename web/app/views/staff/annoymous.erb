@@ -1,0 +1,32 @@
+<%= javascript_include_tag 'staff_annoymous' %>
+
+
+<div class="container">
+  <div class="nav">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#">客服中心</a></li>
+      <li><a href="#">帮助</a></li>
+      <li class="disabled"><a href="#">关于我们</a></li>
+    </ul>
+  </div>
+
+  <div class="row-fluid">
+    <span class="span12 title">客服中心 —— <span id="flush">正在链接...</span></span>
+  </div>
+
+  <div class="row-fluid" style="height:250px">
+    <div class="span3">&nbsp;</div>
+    <div class="span1">&nbsp;</div>
+    <div class="span7">
+      <div class="row-fluid">
+        <div class="row-fluid scroll-y" style="height:250px;" id="msgs">
+          <div class="span12" id="roomhistory_blank">&nbsp;</div>
+        </div>
+        <div class="span12"><form  class="well form-search">
+          <input type="text" class="input-medium search-query" style="width:418px" id="msgtosend"/>
+          <div class="btn" onclick="sendmsg();">发送</div>
+        </form ></div>
+      </div>
+    </div>
+  </div>
+</div>
